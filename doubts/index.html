@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iOS fusion Support</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        body{
+            background-color: rgb(27, 27, 27);
+        }
+        #logo{
+            
+            margin:30px;
+        }
+        #heading{
+            padding:20px;
+            color:rgb(242, 251, 255);
+        }
+        panel{
+            width:100%;
+        }
+        form{
+            padding:50px;
+        }
+        textarea {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="photo" style="text-align: center;">
+            <img src="ADG-logo.png"  class="img-responsive text-center" alt="ADG-logo" id="logo">
+    </div> -->
+    <br>
+    <h1 class="text-center" id="Heading">Apple Developers Group - iOS Fusion </h1>
+    <br>    
+    <div class="container panel">
+                
+                <form method="POST" action="https://formspree.io/appledevelopersgroup@gmail.com">
+                  <div class="form-group">
+                    <label>Name:</label>
+                    <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+                  </div>
+                  <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div><br>
+                  <div class="form-group">
+                    <label>Text:</label><br>
+                    <textarea name="message" rows="10" cols="100" class="visible-lg visible-md"></textarea>
+                    <textarea name="message" rows="7" cols="30" class="visible-sm visible-xs"></textarea> 
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+</body>
+</html>

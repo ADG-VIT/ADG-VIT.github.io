@@ -1,0 +1,229 @@
+body{
+  background-color: rgb(254,254,254);
+    overflow-x: hidden;
+    font-family: San Francisco, sans-serif;
+}
+#adgLogo{
+  width: 40%;
+  height: auto;
+  margin-top: -10%;
+}
+.container-fluid{
+  background-color: rgb(11,11,11);
+}
+#navLinks li a{
+  font-size: 1.12em;
+  font-family: San Francisco, sans-serif;
+}
+#navLinks li:hover{
+  transition: 0.5s;
+  font-size: 120%;
+  font-family: San Francisco, sans-serif;
+  background-color: rgb(75,75,77);
+}
+#navBar{
+  background-color: rgb(43,43,43);
+  -webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+}
+.container{
+  width: 100%;
+  margin: 0;
+}
+
+
+
+#delDesign{
+  position: fixed;
+  background-color: rgb(129,129,129);
+  min-height: 64vh;
+  width: 4%;
+}
+#wasteSpace{
+  min-height: 56vh;
+}
+#delta{
+  width:100%;
+}
+#eventsHead{
+  text-align: center;
+  padding-bottom: 4%;
+}
+#eventsHead h2{
+  color: rgb(56,56,56);
+}
+#eventsHead h6{
+  color: rgb(213,213,213);
+}
+#wasteSpace2{
+  min-height: 11vh;
+}
+#img1{
+  width:100%;
+}
+#img2{
+  width:100%;
+}
+#event1Image{
+  padding: 0;
+}
+#event1{
+  padding: 0;
+  margin-bottom: 10%;
+  -webkit-box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.13);
+  -moz-box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.13);
+  box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.13);
+}
+#iconsNet h5 a{
+  color: rgb(118,118,118);
+}
+#event1:hover{
+  transition: 0.5s;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.26);
+  -moz-box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.26);
+  box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.29);
+}
+#modalImage1{
+  width:100%;
+}
+
+#eventModal1{
+
+}
+#modal-dialog{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0%;
+  margin-left: 0%;
+  top: 0%;
+  left: 0%;
+}
+#mainModal1{
+/*  position: fixed;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  text-align: justify;*/
+  left: 0;
+  margin-left: 0%;
+  height: 100vh;
+  padding: 1.5%;
+  background-color: rgba(10,10,10,0.7);
+}
+#mainModal{
+  margin-top: 7%;
+  text-align: justify;
+  padding: 1.5%;
+  background-color: rgba(10,10,10,0.99);
+}
+
+#headTextModal{
+  margin-left: 0%;
+  text-align: center;
+  color: white;
+}
+#headTextModal a{
+
+  color: white;
+  text-decoration: none;
+}
+#headTextModal a:hover{
+  cursor: pointer;
+}
+#leftHeadText h1{
+  font-size: 450%;
+}
+#leftHeadText{
+  border-right: thick solid #ffffff;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+.gallery{
+  margin-top: 10%;
+  background-color: black;
+}
+#galleryModal2{
+  background-color: rgba(10,10,10,0.95);
+}
+#galleryModal1{
+  background-color: rgba(10,10,10,0.95);
+}
+#viewGallery{
+  margin-top: 7%;
+  padding: 2%;
+  background-color: rgba(0,0,0,0);
+  border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+  border: 2px solid #ffffff;
+}
+#viewGallery:hover{
+  color: rgb(205,205,215);
+}
+#rightHeadText{
+  margin-top: 9%;
+}
+#rightHeadText p{
+  font-size: 150%;
+}
+#closeModalBtn{
+  text-align: center;
+  margin-top: 10%;
+}
+#closeBtn{
+  font-size: 120%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(0,0,0,0);
+  border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+  border: 2px solid #ffffff;
+  color: white;
+}
+.main-text
+{
+    position: absolute;
+    top: 5%;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+#imgCarousel{
+  width: 100%;
+  margin: 0;
+}
+#carouselImages1{
+  height: 50vh;
+  width: 100%;
+  margin: 0;
+}
+#img1{
+  height: 50vh;
+}
+#img2{
+  height: 50vh;
+}
+/*#img1:hover{
+  transition: 0.25s;
+  height: 50.5vh;
+}*/
+.sec2Logo{
+  display: flex;
+  top: 0%;
+  left: 0%;
+  width: 10vh;
+  margin-top: -5%;
+}
+h2{
+  font-family: San Francisco, sans-serif;
+  font-size: 1.4em;
+  font-weight: lighter;
+}

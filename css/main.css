@@ -1,0 +1,486 @@
+@font-face{
+    src:url("../fonts/Roboto-Light.ttf");
+    font-family:roboto;
+}
+
+@font-face{
+    src:url("../fonts/SanFrancis.ttf");
+    font-family:sanf;
+}
+@font-face{
+    src:url("../fonts/Helvetica Neue CE 35 Thin.ttf");
+    font-family:hel_head;
+}
+
+@font-face{
+    src:url("../fonts/Helvetica.otf");
+    font-family:hel;
+}
+
+@font-face{
+    src:url("../fonts/HelveticaNeue.ttf");
+    font-family:hel_n;
+}
+
+@font-face{
+    src:url("../fonts/TCM.ttf");
+    font-family:nav_font;
+}
+body{
+  background-color: rgb(21,21,21);
+  overflow-x: hidden;
+
+}
+a:hover{
+  text-decoration: none;
+}
+.container{
+  width: 100%;
+  margin: 0;
+}
+#adgLogo{
+  width: 40%;
+  height: auto;
+  margin-top: -10%;
+}
+#navBar{
+  background: rgba(235,235,235,0.0);
+  border-color: transparent;
+  /*-webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.21);*/
+}
+#navLinks li a{
+  color: rgb(255,255,255);
+  font-size: 120%;
+}
+#navLinks li:hover{
+  transition: 0.5s;
+  font-size: 140%;
+  background-color: rgba(85,85,87,0.7);
+}
+#linkAddress:hover{
+  color: rgb(230,230,230);
+
+}
+#navBar{
+
+}
+#section1{
+  background-image: url('../img/carousel1a.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#mainCreate{
+  font-family:nav_font;
+  font-weight: lighter;
+  margin-top: -13.5%;
+}
+.centerTextHead{
+
+}
+.mainSlide{
+  font-family:hel_head;
+  min-height: 100vh;
+  padding-top: 40vh;
+  text-align: center;
+  overflow: hidden;
+  color: rgb(28,28,28);
+}
+.mainSlide h1{
+  font-size: 400%;
+}
+.mainSlide h2{
+  font-size: 150%;
+}
+#section2 .col-md-6{
+  height: 50vh;
+}
+#section2a .col-md-6{
+  height: 50vh;
+}
+#adgEvents{
+  background-color: rgb(236,236,236);
+  text-align: center;
+
+}
+#adgTeam{
+  margin-left: -0.4%;
+  background-color: rgb(246,246,246);
+  background-image: url('../img/board_poster.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#adgProjects{
+
+  background-color: rgb(246,246,246);
+  background-image: url('../img/carousel21.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#adgPartners{
+    margin-right: -0.09%;
+  background-color: rgb(236,236,236);
+
+  text-align: center;
+}
+.sec2Logo{
+  width: 10%;
+  padding: 0.7%;
+}
+#TeamsSlide{
+  height:100vh;
+  background-color: rgb(32,32,32);
+
+}
+#aboutADG{
+  padding-top: 5%;
+  height: 35vh;
+  padding-bottom: 2%;
+  text-align: center;
+  color: rgb(205,205,205);
+  background-color: rgb(32,32,32);
+}
+#aboutADG h1,h4{
+  padding:1%;
+}
+#aboutTeams{
+  height: 65vh;
+  padding-top: 2%;
+  background-color: rgb(32,32,32);
+  text-align: center;
+  color: rgb(216,216,216);
+  padding-bottom: 4%;
+
+}
+#iosLogo{
+  padding-top: 7%;
+  width: 70%;
+}
+#androidLogo{
+  padding-top: 7%;
+  width: 70%;
+}
+#designLogo{
+  padding-top: 7%;
+  width: 70%;
+}
+#webLogo{
+  padding-top: 7%;
+  width: 70%;
+}
+#contactADG{
+  color: rgb(216,216,216);
+  background-color: rgb(10,10,10);
+  text-align: center;
+  padding-bottom: 2%;
+}
+#contactUs{
+  background-color: rgb(10,10,10);
+  align-items: center;
+  text-align: center;
+  padding-bottom: 4%;
+}
+#formName{
+  padding: 1.5vh;
+}
+#formInput{
+  background-color: rgb(48,48,48);
+  border-color: rgb(48,48,48);
+  height:10vh;
+  text-align: center;
+}
+#formRight{
+  padding: 3%;
+  background-color: rgb(48,48,48);
+  border-color: rgb(48,48,48);
+  height: 24vh;
+  text-align: center;
+}
+#credits{
+  background-color: rgb(236,236,236);
+  padding-top: 10%;
+  text-align: center;
+}
+#submitButton{
+  margin-top: 2vh;
+  height:10vh;
+  width: 92%;
+  background-color: rgb(32,207,36);
+}
+#eventsCarouselInfo{
+  top:5%;
+
+}
+#imgCarousel{
+  height: 50vh;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+#imageCarousel1{
+  width:111%;
+
+  margin-left: -5%;
+  margin-right: -3%;
+}
+#imageCarousel2{
+  margin-left: -3%;
+  margin-right: -3%;
+}
+#imageCarousel3{
+  margin-left: -3%;
+  margin-right: -3%;
+}
+#imageCarousel4{
+  width:111%;
+
+  margin-left: -3%;
+  margin-right: -3%;
+}
+#carouselImages{
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  align-items: center;
+    margin: 0;
+  margin-bottom: 20vh;
+
+}
+.main-text
+{
+    position: absolute;
+    top: 35%;
+
+    width: 96.66666666666666%;
+    /*color: #FFF;*/
+}
+.main-text a
+{
+  /*color: white;*/
+    font-weight: lighter;
+
+
+    /*color: #FFF;*/
+}
+.main-text h2 a{
+  transition: 0.6s;
+  font-weight: 300;
+  font-size: 1.12em;
+  font-family:hel;
+  font-weight: normal;
+}
+.main-text h2 a:hover{
+  transition: 0.6s;
+  font-weight: 400;
+  font-size: 1.42em;
+}
+/*.carousel-inner .item {
+   -webkit-transition: 0.6s ease-in-out top;
+   -moz-transition: 0.6s ease-in-out top;
+   -ms-transition: 0.6s ease-in-out top;
+   -o-transition: 0.6s ease-in-out top;
+   transition: 0.6s ease-in-out top;
+}*/
+
+
+.arrow {
+  margin-top: 5%;
+
+  left: 50%;
+  margin-left:-20px;
+}
+.arrow a{
+  color: white;
+}
+
+/* ================== CSS for Bounce animation ================== */
+
+.bounce {
+	-webkit-animation-name: bounce;
+	-moz-animation-name: bounce;
+	-o-animation-name: bounce;
+	animation-name: bounce;
+}
+.animated{-webkit-animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-ms-animation-fill-mode:both;
+-o-animation-fill-mode:both;
+
+            animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+animation-fill-mode:both;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+}
+
+
+@-webkit-keyframes bounce {
+	0%, 40%, 80%, 100% {-webkit-transform: translateY(0);}
+  20% {-webkit-transform: translateY(-30px);}
+  50% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+	0%, 40%, 80%, 100% {-moz-transform: translateY(0);}
+	20% {-moz-transform: translateY(-30px);}
+  50% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+	0%, 40%, 80%, 100% {-o-transform: translateY(0);}
+	20% {-o-transform: translateY(-30px);}
+  50% {-o-transform: translateY(-15px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 40%, 80%, 100% {transform: translateY(0);}
+	20% {transform: translateY(-30px);}
+  50% {transform: translateY(-15px);}
+	60% {transform: translateY(-15px);}
+}
+
+/* ================== CSS for Touch Bounce animation ================== */
+
+.touchBounce:hover {
+	-webkit-animation-name: bounce;
+	-moz-animation-name: bounce;
+	-o-animation-name: bounce;
+	animation-name: bounce;
+}
+
+#pageFooterMain{
+  background-color: #c7c7c7;
+
+  margin: -2%;
+  bottom: -1%;
+}
+#pageFooter{
+  text-align: center;
+  color: #000000;
+  height: 9vh;
+  margin: 0%;
+  padding-bottom: -1%;
+}
+#pageFooter h5{
+
+}
+#pageFooter h4 i{
+  padding-left: 1.5%;
+  margin-bottom: -1.5%;
+}
+#pageFooter h4{
+margin-bottom: -1.3%;
+margin-top: -1%;
+
+padding: 0%;
+padding-top: 1%;
+}
+#modalImage1{
+  width:100%;
+}
+#mainModal{
+  text-align: center;
+  padding: 1.5%;
+}
+#toPoint:hover{
+  cursor: pointer;
+}
+.modal-dialog{
+  position:relative;
+
+  top:40%;
+}
+#linkAddress{
+  font-family:sanf;
+  font-size: 14px;
+  font-weight:normal;
+}
+#eventsText{
+  font-family:hel;
+  font-weight: normal;
+}
+#mainHeadText{
+  font-family:hel_head;
+  font-size: 120%;
+  color: rgba(255,255,255,0.7);
+
+}
+#mainHeadText h2{
+  margin-top: 28.5%;
+}
+
+#formInput{
+  color: white;
+}
+#formRight{
+  color: white;
+}
+#premiumEvents a{
+  font-size: 100%;
+  text-decoration: none;
+  transition: 1.5s;
+}
+#premiumEvents{
+  transition: 1.5s;
+}
+#classroomEvents a{
+  font-size: 100%;
+  text-decoration: none;
+  transition: 1.5s;
+}
+#classroomEvents{
+  transition: 1.5s;
+}
+#workshopEvents a{
+  font-size: 100%;
+  text-decoration: none;
+  transition: 1.5s;
+}
+#workshopEvents{
+  transition: 1.5s;
+}
+#mainModal{
+  overflow: hidden;
+  margin: 0%;
+}
+#premiumEvents:hover{
+  transition: 1.5s;
+  background-color: rgba(34,34,34,0.5);
+}
+#premiumEvents a:hover{
+  transition: 1.5s;
+  color: rgba(234,234,234,0.5);
+  text-decoration: none;
+}
+#classroomEvents:hover{
+  transition: 1.5s;
+  background-color: rgba(34,34,34,0.5);
+}
+#workshopEvents:hover{
+  transition: 1.5s;
+  background-color: rgba(34,34,34,0.5);
+}
+#premium{
+  padding-left: 0%;
+  color: white;
+}
+#classRoom{
+  padding-left: 5%;
+  color: white;
+}
+#workShop{
+  padding-left: 5%;
+  color: white;
+}

@@ -1,0 +1,121 @@
+body{
+  background-color: #212121;
+    overflow-x: hidden;
+    color: rgb(216,216,226);
+}
+#adgLogo{
+  width: 40%;
+  height: auto;
+  margin-top: -10%;
+}
+.container-fluid{
+  background-color: rgb(11,11,11);
+}
+#navLinks li a{
+  font-size: 1.12em;
+}
+#navLinks li:hover{
+  transition: 0.5s;
+  font-size: 120%;
+  background-color: rgb(75,75,77);
+}
+#navBar{
+  background-color: black;
+  -webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+}
+.container{
+  width: 100%;
+  margin: 0;
+}
+#delDesign{
+  position: fixed;
+  background-color: rgb(53,53,53);
+  min-height: 60vh;
+  width: 4%;
+}
+#wasteSpace{
+  min-height: 56vh;
+}
+#delDesign{
+  position: fixed;
+  background-color: rgb(53,53,53);
+  min-height: 64vh;
+  width: 4%;
+  z-index: 2;
+}
+#delta{
+  width:100%;
+}
+#iphoneFrame{
+  margin-top: 50px;
+  width: 325px;
+  height: 600px;
+  position: fixed;
+  background-image: url("../projectImages/iphone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#projectInfo1{
+/*  margin-left: 50vw;*/
+/*background-color: rgb(35,35,35);*/
+  margin-top: 85px;
+  height:625px;
+  text-align: center;
+
+}
+#projectInfo4{
+/*  margin-left: 50vw;*/
+/*background-color: rgb(35,35,35);*/
+  margin-top: 85px;
+  height:625px;
+  text-align: center;
+
+}
+#projectInfo2{
+/*  margin-left: 50vw;*/
+/*background-color: rgb(29,29,29);*/
+  margin-top: 85px;
+  height:625px;
+  text-align: center;
+}
+#projectInfo3{
+/*  margin-left: 50vw;*/
+/*background-color: rgb(29,29,29);*/
+  margin-top: 85px;
+  height:625px;
+  text-align: center;
+}
+#appStore{
+  width: 70%;
+}
+#projectSlide{
+  height:410px;
+  overflow: hidden;
+  margin-top: 94px;
+  margin-left: 36.4px;
+}
+#freshers{
+  width:230px;
+}
+#dodge{
+    width:230px;
+    margin-left: -1px;
+
+}
+#vu{
+    width:230px;
+    margin-left: -1px;
+}
+#walkin{
+    width:230px;
+    margin-left: -3px;
+}
+#mainModal{
+  color: rgb(15,15,15);
+}
+.btn{
+  background-color: rgb(135,135,135);
+  color: rgb(12,12,12);
+}

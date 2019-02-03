@@ -1,0 +1,103 @@
+body{
+  background-color: #212121;
+    overflow-x: hidden;
+    color: rgb(216,216,226);
+}
+#adgLogo{
+  width: 40%;
+  height: auto;
+  margin-top: -10%;
+}
+.container-fluid{
+  background-color: rgb(11,11,11);
+}
+#navLinks li a{
+  font-size: 1.12em;
+}
+#navLinks li:hover{
+  transition: 0.5s;
+  font-size: 120%;
+  background-color: rgb(75,75,77);
+}
+#navBar{
+  background-color: black;
+  -webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+}
+.container{
+  width: 100%;
+  margin: 0;
+}
+#delDesign{
+  position: fixed;
+  background-color: rgb(53,53,53);
+  min-height: 60vh;
+  width: 4%;
+}
+#wasteSpace{
+  min-height: 56vh;
+}
+#delDesign{
+  position: fixed;
+  background-color: rgb(53,53,53);
+  min-height: 64vh;
+  width: 4%;
+  z-index: 2;
+}
+#delta{
+  width:100%;
+}
+#vitFreshers{
+  width:90%;
+
+  /* ========= transition for transform property ========= */
+
+  transition: transform 1.5s ease-in; /* vendorless fallback */
+  -o-transition: transform 1.5s ease-in; /* opera */
+  -ms-transition: transform 1.5s ease-in; /* IE 10 */
+  -moz-transition: transform 1.5s ease-in; /* Firefox */
+  -webkit-transition: transform 1.5s ease-in; /*safari and chrome */
+
+  /* ========= transition for width property ========= */
+
+    transition: 2s;
+}
+#vitFreshers:hover{
+  transition: transform 2s ease-out; /* vendorless fallback */
+  -o-transition: transform 2s ease-out; /* opera */
+  -ms-transition: transgorm 2s ease-out; /* IE 10 */
+  -moz-transition: transform 2s ease-out; /* Firefox */
+  -webkit-transition: transform 2s ease-out; /*safari and chrome */
+  transform: rotateY(360deg);
+
+  transition: 2s;
+  width:100%;
+  margin: -6%;
+}
+#projectsMain{
+  text-align: center;
+}
+#appStore{
+  width:50%;
+}
+#lineBreak{
+  width:100%;
+}
+
+#pageFooterMain{
+  background-color: #c7c7c7;
+}
+#pageFooter{
+  text-align: center;
+  color: #000000;
+}
+#pageFooter h2{
+
+}
+#pageFooter h4 i{
+  padding-left: 2%;
+}
+#pageFooter h4{
+
+}

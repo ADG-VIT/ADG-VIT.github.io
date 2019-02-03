@@ -1,0 +1,98 @@
+body{
+  background-color: #212121;
+    overflow-x: hidden;
+    color: rgb(216,216,226);
+}
+#adgLogo{
+  width: 40%;
+  height: auto;
+  margin-top: -10%;
+}
+.container-fluid{
+  background-color: rgb(11,11,11);
+}
+#navLinks li:hover{
+  transition: 0.5s;
+  font-size: 120%;
+  background-color: rgb(75,75,77);
+}
+#navLinks li a{
+  font-size: 1.12em;
+}
+#navBar{
+  background-color: black;
+  -webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+}
+.container{
+  width: 100%;
+  margin: 0;
+}
+#delDesign{
+  position: fixed;
+  background-color: rgb(53,53,53);
+  min-height: 60vh;
+  width: 4%;
+}
+#wasteSpace{
+  min-height: 56vh;
+}
+#delDesign{
+  position: fixed;
+  background-color: rgb(53,53,53);
+  min-height: 64vh;
+  width: 4%;
+  z-index: 2;
+}
+#delta{
+  width:100%;
+}
+
+#pageFooterMain{
+  background-color: #c7c7c7;
+}
+#pageFooter{
+  text-align: center;
+  color: #000000;
+}
+#pageFooter h2{
+
+}
+#pageFooter h4 i{
+  padding-left: 2%;
+}
+#pageFooter h4{
+
+}
+#iphoneFrame{
+  position: fixed;
+  background: url('../projectImages/iphone.png');
+
+  background-repeat: no-repeat;
+}
+#projectInfo1{
+/*  margin-left: 50vw;*/
+  text-align: center;
+  margin-top: 1%;
+  height: 70vh;
+
+}
+#projectInfo2{
+/*  margin-left: 50vw;*/
+  text-align: center;
+  margin-top: 1%;
+  height: 70vh;
+
+
+}
+#projectInfo3{
+/*  margin-left: 50vw;*/
+  text-align: center;
+  margin-top: 1%;
+  height: 70vh;
+
+}
+#appStore{
+  width: 70%;
+}
